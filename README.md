@@ -1,6 +1,6 @@
 # **Mini-CRM Laravel Application**
 
-This is a simple Mini-CRM application built using Laravel, MySQL, and AdminLTE. It allows for CRUD operations on companies and employees, provides basic authentication, and includes multi-language support for English and Tagalog.
+This is a simple Mini-CRM application built using Laravel, MySQL, and AdminLTE. It allows for CRUD operations on companies and employees, provides basic authentication, and includes .
 
 ## **Features**
 
@@ -10,10 +10,10 @@ This is a simple Mini-CRM application built using Laravel, MySQL, and AdminLTE. 
   - **Employees**: First name, last name, email, phone, and associated company.
 - Logo upload and display (with file storage in the `storage/app/public/logos` folder).
 - Multi-language support (English and Tagalog).
-- DataTables integration for company and employee lists.
+  
 - Pagination for viewing companies and employees (10 entries per page).
-- Email notification when a new company is created.
-- Uses AdminLTE for sleek UI and responsive design.
+  
+- Uses AdminLTE Theme.
 
 ## **Technologies Used**
 
