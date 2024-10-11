@@ -33,3 +33,24 @@ Follow these steps to get the project running on your local machine.
 ```bash
 git clone https://github.com/aldrin-prog/mini-crm.git
 cd mini-crm
+```
+### **2. Install dependencies**
+
+```bash
+composer install
+
+```
+### **3. Set up environment variables**
+```bash
+cp .env.example .env
+```
+#### Open the .env file and update the database credentia
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mini-crm
+DB_USERNAME=root
+DB_PASSWORD=
+
+```
