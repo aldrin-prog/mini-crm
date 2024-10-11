@@ -52,5 +52,21 @@ DB_PORT=3306
 DB_DATABASE=mini-crm
 DB_USERNAME=root
 DB_PASSWORD=
+```
+### **4. Generate the application key**
+```bash
+php artisan key:generate
 
+```
+### **5. Set up storage symlink**
+```bash
+php artisan storage:link
+```
+### **6. Run database migrations and seeders**
+```bash
+php artisan migrate --seed
+```
+### **7. Run the development server**
+```bash
+php artisan serve
 ```
