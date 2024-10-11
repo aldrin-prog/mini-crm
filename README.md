@@ -9,7 +9,6 @@ This is a simple Mini-CRM application built using Laravel, MySQL, and AdminLTE. 
   - **Companies**: Name, email, logo (min 100x100), and website.
   - **Employees**: First name, last name, email, phone, and associated company.
 - Logo upload and display (with file storage in the `storage/app/public/logos` folder).
-- Multi-language support (English and Tagalog).
   
 - Pagination for viewing companies and employees (10 entries per page).
   
